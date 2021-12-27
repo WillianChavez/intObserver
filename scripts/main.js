@@ -52,12 +52,9 @@ const getImages = async () => {
 }
 const setObserver = () => {
     const optionsGetImages = {
-        root: null,
         rootMargin: '300px 0px 0px 0px',
-        threshold: 0,
     }
     const options = {
-        root: null,
         rootMargin: '100px 0px 0px 0px',
     }
     const observerGetImages = new IntersectionObserver((entries) => {
